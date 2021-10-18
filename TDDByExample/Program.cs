@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-[assembly:InternalsVisibleTo("Tests")];
+[assembly: InternalsVisibleTo("TDDByExample.Tests")]
 namespace TDDByExample
 {
     class Dollar
     {
-        Dollar(int amount)
+        internal Dollar(int amount)
         {
             
         }
 
-        void times(int multiplier)
+        internal void times(int multiplier)
         {
 
         }

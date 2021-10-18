@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using TDDByExample;
 
-namespace Tests
+namespace TDDByExample.Tests
 {
     public class UnitTest1
     {

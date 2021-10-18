@@ -1,12 +1,19 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
+[assembly:InternalsVisibleTo("Tests")];
 namespace TDDByExample
 {
-    class Program
+    class Dollar
     {
-        static void Main(string[] args)
+        Dollar(int amount)
         {
-            Console.WriteLine("Hello World!");
+            
+        }
+
+        void times(int multiplier)
+        {
+
         }
     }
 }
